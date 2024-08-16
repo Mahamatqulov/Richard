@@ -291,18 +291,29 @@ strong {
   display: flex;
   justify-content: center;
   column-gap: 1.6rem;
+  cursor: pointer;
 }
 
 .span {
   width: 7px;
   height: 7px;
   background-color: #1b1b1b;
+  cursor: pointer;
+}
+
+.span:hover {
+  background-color: #ffff;
 }
 
 .span1 {
   width: 7px;
   height: 7px;
   background-color: #6b6b6b;
+  cursor: pointer;
+}
+
+.span1:hover {
+  background-color: #ffff;
 }
 
 .box-100 {
@@ -314,14 +325,17 @@ strong {
   margin-top: 18rem;
 }
 
-.fon1 {
-  position: relative;
-  bottom: 2.5rem;
-  padding: 15.6rem 50.5rem;
+.fon11 {
   background-image: url("../imges/bg-wave.svg"),
     linear-gradient(276.18deg, rgba(110, 40, 177, 1) 0%, rgba(252, 10, 126, 1));
   background-size: cover;
   background-positionce: center;
+  position: relative;
+  bottom: 2.5rem;
+}
+
+.fon1 {
+  padding: 15.6rem 50.5rem;
 }
 
 .box-button {
